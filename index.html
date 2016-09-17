@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+		
+		<div class="container">
+			
+			<h2 class="text-center">CSS3 button generator</h2>
+			
+			<div class="row">
+				
+				<div class="col-md-4 col">
+					<h3 class="text-center">Border-radius</h3>
+					<div class="row">
+						<div class="col-md-6 buttons">
+							
+							<button class="btn btn-default" id="increase-radius">
+								<i class="fa fa-arrow-up"></i>
+							</button>
+							<button class="btn btn-default" id="reduce-radius">
+								<i class="fa fa-arrow-down"></i>
+							</button>
+
+						</div>
+						
+						<div class="col-md-4">
+							<div class="input-group">
+							<div class="input-group-addon" >step</div>
+						 	<input class="form-control" id="step"  type="text" value="1">
+						</div>
+						</div>
+
+					 </div>
+
+					 <div class="row">
+					 	<h3 class="text-center">Color</h3>
+					
+							<div class="input-group for-bg">
+							<div class="input-group-addon ">Background</div>
+						 	<input class="form-control jscolor" id="bg-color"  type="text" value="CCCCCC">
+
+						</div>
+						
+					<div class="input-group for-bd">
+						<div class="input-group-addon ">Border</div>
+						 	<input class="form-control jscolor" id="border-color"  type="text" value="777777">
+						
+					</div>
+					 	
+					 	<h3 class="text-center">Hover</h3>
+						<div class="input-group for-bg">
+							<div class="input-group-addon ">Background</div>
+						 	<input class="form-control jscolor" id="bg-color-hover"  type="text" value="CCCCCC">
+						</div>
+					  
+					  <div class="input-group for-bd">
+					  	<div class="input-group-addon ">Border</div>
+						 	<input class="form-control jscolor" id="border-color-hover"  type="text" value="777777">
+						</div>
+
+						
+						<div class="col-md-6 col-md-offset-2">
+							<div class="input-group">
+							<div class="input-group-addon" >Transition</div>
+						 	<input class="form-control" id="trans"  type="text" value="0">
+						 	<div class="input-group-addon">s</div>
+						</div>
+						</div>
+
+
+						
+
+					
+					 </div>	
+					</div>
+  
+				
+				<div class="col-md-3 col-md-offset-1 col-result">
+					<h3 class="text-center">Result</h3>
+					<div class="create"><div class="textbutton text-center"><p >Text</p></div></div>
+				</div>
+				<div class="col-md-3 col-md-offset-1 col">
+					<h3 class="text-center">Your CSS</h3>
+					<div class="cssCode">
+					<textarea id="code-result" cols="30" rows="10"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+
+ <!-- col-md-offset-2  col-md-offset-0  col-lg-offset-2 -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jscolor.js"></script>
+  	<script src="main.js"></script>	
+  </body>
+</html>

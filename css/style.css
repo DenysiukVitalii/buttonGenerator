@@ -1,0 +1,42 @@
+.col {
+    background-color: #E8E8E8;
+    border-radius: 22px;
+    padding-bottom: 20px;
+    
+}
+.col-result {
+	border: 3px solid #E8E8E8;
+	border-radius: 22px;
+}
+
+
+.buttons {
+    padding-left: 73px;
+}
+
+.for-bd, .for-bg {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.create {
+	height: 40px;
+	width: 140px;
+	margin: 50px auto;
+	background: #cccccc;
+	border: 1px solid #777777;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+
+
+.cssCode {
+    margin-left: 16px;
+    margin-top: 18px;
+}
+
+.textbutton {
+	margin: 10px 10px 10px 10px;
+  
+}
